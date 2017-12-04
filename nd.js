@@ -58,3 +58,4 @@ for (x = 0; x < l; x++) {
     for (y = 0; y < sk[x].length; y++) {}
     console.log(sk[x])
 }
+console.warn(`new push`)
