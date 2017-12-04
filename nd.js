@@ -25,7 +25,7 @@ for (x = 0; x < l; x++) {
         if (sk[x][y] > max) max = sk[x][y]
     }
 }
-console.log(`array elements sum is ${sum} max value is ${max}`);
+console.warn(`array elements sum is ${sum} max value is ${max}`);
 
 var naujasSk = [];
 var l = sk.length;
@@ -36,6 +36,7 @@ for (x = 0; x < l; x++) {
         z++;
     }
 }
+// console.warn(naujasSk)
 
 var rNumber;
 var skSorted = [
@@ -43,6 +44,7 @@ var skSorted = [
     [0, 0, 0],
     [0, 0, 0, 0, 0, 0]
 ];
+
 
 console.warn(`Randomly rearranged array`)
 for (x = 0; x < sk.length; x++) {
@@ -59,3 +61,4 @@ for (x = 0; x < l; x++) {
     console.log(sk[x])
 }
 console.warn(`new push`)
+console.warn(`newer push`)
